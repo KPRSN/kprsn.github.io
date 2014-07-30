@@ -3,9 +3,8 @@ gaffelgaffel.github.io
 
 Karlpersson.se - My personal web page
 
-Made using Jekyll
+Constructed as a static web page using Jekyll. See http://jekyllrb.com for more details.
 
-Updating icons:
-Save as .svg and rename to .html.
-Change width and height properties to 100%.
-Remove fill properties.
+#Updating icons
+When modifying icons, save as .svg and rename to .html.
+Change width and height properties to 100% and remove fill properties, to make it work properly with the css formatting.
