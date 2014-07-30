@@ -1,3 +1,7 @@
+# Site settings
+title: Karl Persson
+description: Programmer // Geek
+
 # Build settings
 markdown: kramdown
 permalink: pretty
