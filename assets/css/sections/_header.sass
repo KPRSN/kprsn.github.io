@@ -1,11 +1,10 @@
 header
 	height: 200px
-	background: #F2C43C
+	background: $headerPrimaryBackgroundColor
 	overflow: auto
 
 	.logo
-		height: 58px
-		width: 58px
+		+size(58px)
 		margin-left: auto
 		margin-right: auto
 		margin-top: 15px
@@ -13,15 +12,15 @@ header
 
 		// SVG-properties
 		path
-			fill: #F2C43C
+			fill: $headerPrimaryBackgroundColor
 		circle
-			fill : #fff
+			fill: $headerPrimaryColor
 
 	h1
 		font:
 			size: 44px
 			weight: 700
-		color: white
+		color: $headerPrimaryColor
 		text-align: center
 		text-transform: uppercase
 		letter-spacing: 0.05em
@@ -36,11 +35,13 @@ header
 			font: 
 				size: 64px
 
+		min-size: 50%
+
 	.kicker
 		font:
 			size: 18px
 			weight: 700
-		color: white
+		color: $headerPrimaryColor
 		text-align: center
 		text-transform: uppercase
 		letter-spacing: 0.05em

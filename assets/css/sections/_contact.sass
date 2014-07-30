@@ -1,0 +1,39 @@
+section
+
+	h3
+		color: $contactPrimaryColor
+
+	.icons
+		margin: auto auto
+		max-width: 600px
+		+display(flex)
+		+align-items(center)
+		+justify-content(space-around)
+
+		[class^="social-"]
+			+size(58px)
+			margin-left: 5px
+			margin-right: 5px
+			path
+				fill: $contactPrimaryBackgroundColor
+			polygon
+				fill: $contactPrimaryBackgroundColor
+			rect
+				fill: $contactPrimaryBackgroundColor
+			circle
+				fill: $contactPrimaryColor
+
+			// Not needed if we ain't gonna do something else (animations, drop-downs?)
+			&.social-facebook
+				order: 1
+			&.social-twitter
+				order: 2
+			&.social-googleplus
+				order: 3
+			&.social-linkedin
+				order: 4
+			&.social-lastfm
+				order: 5
+			&.social-github
+				order: 6
+
