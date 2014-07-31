@@ -10,30 +10,25 @@ section
 		+align-items(center)
 		+justify-content(space-around)
 
-		[class^="social-"]
+		.social
 			+size(58px)
 			margin-left: 5px
 			margin-right: 5px
-			path
-				fill: $contactPrimaryBackgroundColor
-			polygon
-				fill: $contactPrimaryBackgroundColor
-			rect
-				fill: $contactPrimaryBackgroundColor
+
+			// SVG-properties
+			// Set color for all kind of shapes
 			circle
 				fill: $contactPrimaryColor
+				+transition(fill 0.5s ease)
+			g
+				*
+					fill: $contactPrimaryBackgroundColor
 
-			// Not needed if we ain't gonna do something else (animations, drop-downs?)
-			&.social-facebook
-				order: 1
-			&.social-twitter
-				order: 2
-			&.social-googleplus
-				order: 3
-			&.social-linkedin
-				order: 4
-			&.social-lastfm
-				order: 5
-			&.social-github
-				order: 6
+		.social:hover
+			cursor: pointer
+			circle
+				fill: $contactSecondaryColor
+			g
+				*
+					fill: $contactPrimaryBackgroundColor
 
