@@ -13,6 +13,11 @@ linkedin: https://www.linkedin.com/pub/karl-persson/92/791/b22
 lastfm: http://www.lastfm.se/user/GaffelGaffel
 github: https://github.com/GaffelGaffel
 
+# Footer
+fork-me: https://github.com/GaffelGaffel/gaffelgaffel.github.io
+name: Karl Persson
+year: 2014
+
 # Build settings
 markdown: kramdown
 permalink: pretty
