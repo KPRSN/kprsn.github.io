@@ -1,9 +1,13 @@
 Karlpersson.se
 ======================
 
-Karlpersson.se - My personal web page
+Karlpersson.se - My personal web page and developer portfolio.
+Constructed as a static site using Jekyll, Sass and Bourbon. 
 
-Constructed as a static web page using Jekyll. See http://jekyllrb.com for more details.
+For more details, see: 
+- http://jekyllrb.com
+- http://sass-lang.com
+- http://bourbon.io
 
 #Updating icons
 When modifying icons, save as .svg and rename to .html.
