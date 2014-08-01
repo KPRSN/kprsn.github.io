@@ -1,9 +1,9 @@
-# Site settings
+# Header settings
 title: Karl Persson
 description: Programmer // Geek
 
 # About
-about: <p><strong>Karl's a curious dude</strong> with a deep passion for software, problem solving and all things technology. <br /><br />Dedicating every minute of his time to computer science studies and rubber duck conversations he doesn't seem to get enough of this stuff.<br /><br />What a wacko!</p>
+about: <p><strong>Karl's a curious dude</strong> with a deep passion for software, problem solving and all things technology. <br /><br />Dedicating every minute of his time to computer science studies and rubber duck conversations he doesn't seem to get enough of the stuff.<br /><br />What a wacko!</p>
 
 # Contact
 facebook: http://facebook.com/gaffeln/
