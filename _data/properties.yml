@@ -1,0 +1,25 @@
+# --------------------------------------------
+# File containing all text and link properties
+# --------------------------------------------
+
+# Header/site properties
+title: Karl Persson
+description: Programmer // Geek
+
+# About
+about: <p><strong>Karl's a curious dude</strong> with a deep passion for software, problem solving and all things technology. <br /><br />Dedicating every minute of his time to computer science studies and rubber duck conversations he doesn't seem to get enough of the stuff.<br /><br />What a wacko!</p>
+
+# Contact
+facebook: http://facebook.com/gaffeln/
+twitter: https://twitter.com/GaffelGaffel
+instagram: http://instagram.com/gaffelgaffel
+googleplus: https://plus.google.com/104666399294253485125/about
+linkedin: https://www.linkedin.com/pub/karl-persson/92/791/b22
+lastfm: http://www.lastfm.se/user/GaffelGaffel
+github: https://github.com/GaffelGaffel
+email: "&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#107;&#97;&#114;&#108;&#112;&#101;&#114;&#115;&#115;&#111;&#110;&#46;&#115;&#101;"
+
+# Footer
+fork-me: https://github.com/GaffelGaffel/gaffelgaffel.github.io
+name: Karl Persson
+year: 2014

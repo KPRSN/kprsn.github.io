@@ -3,15 +3,15 @@
 	<h3>— Contact —</h3>
 
 	<div class='icons'>
-		<div onclick='window.open("{{ site.facebook }}");' class='social'>{% include icons/social_facebook.html %}</div>
-		<div onclick='window.open("{{ site.twitter }}");' class='social'>{% include icons/social_twitter.html %}</div>
-		<div onclick='window.open("{{ site.instagram }}");' class='social'>{% include icons/social_instagram.html %}</div>
-		<div onclick='window.open("{{ site.googleplus }}");' class='social'>{% include icons/social_googleplus.html %}</div>
-		<div onclick='window.open("{{ site.linkedin }}");' class='social'>{% include icons/social_linkedin.html %}</div>
-		<div onclick='window.open("{{ site.lastfm }}");' class='social'>{% include icons/social_lastfm.html %}</div>
-		<div onclick='window.open("{{ site.github }}");' class='social'>{% include icons/social_github.html %}</div>
+		<div onclick='window.open("{{ site.data.properties.facebook }}");' class='social'>{% include icons/social_facebook.html %}</div>
+		<div onclick='window.open("{{ site.data.properties.twitter }}");' class='social'>{% include icons/social_twitter.html %}</div>
+		<div onclick='window.open("{{ site.data.properties.instagram }}");' class='social'>{% include icons/social_instagram.html %}</div>
+		<div onclick='window.open("{{ site.data.properties.googleplus }}");' class='social'>{% include icons/social_googleplus.html %}</div>
+		<div onclick='window.open("{{ site.data.properties.linkedin }}");' class='social'>{% include icons/social_linkedin.html %}</div>
+		<div onclick='window.open("{{ site.data.properties.lastfm }}");' class='social'>{% include icons/social_lastfm.html %}</div>
+		<div onclick='window.open("{{ site.data.properties.github }}");' class='social'>{% include icons/social_github.html %}</div>
 	</div>
 
-	<div class="internet-letter">&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#107;&#97;&#114;&#108;&#112;&#101;&#114;&#115;&#115;&#111;&#110;&#46;&#115;&#101;</div>
+	<div class="internet-letter">{{ site.data.properties.email }}</div>
 
 </section>
