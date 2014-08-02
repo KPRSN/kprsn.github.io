@@ -1,14 +1,17 @@
 .section-projects
-	height: 400px
 	background-color: $projectsPrimaryBackgroundColor
+	overflow: hidden
 
 	h3
 		color: $projectsPrimaryColor
 
 	.soon
-		height: 50px
-		margin: auto auto
-		margin-top: 120px
+		height: 100%
+		+display(flex)
+		+align-items(center)
+		+justify-content(center)
+		margin-top: 100px
+		margin-bottom: 100px
 		color: $projectsPrimaryColor
 		font-weight: 700
 		font-size: 30px
