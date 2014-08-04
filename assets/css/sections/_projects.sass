@@ -2,19 +2,75 @@
 	background-color: $projectsPrimaryBackgroundColor
 	overflow: hidden
 
-	h3
+	h2
 		color: $projectsPrimaryColor
 
-	.soon
-		height: 100%
+	h3
+		color: $projectsPrimaryColor
+		text-transform: uppercase
+
+	a
+		color: $projectsPrimaryColor
+
+	.divfader-content
+		height: 350px
+		max-width: 600px
+		margin: auto auto
+		padding-left: 10px
+		padding-right: 10px
+		padding-bottom: 10px
+		overflow: hidden
+
+		project
+			+display(flex)
+			+align-items(top)
+			+justify-content(center)
+
+			.project-image
+				max-height: 100%
+				max-width: 50%
+				margin-right: 15px
+
+			.project-description
+				max-width: 50%
+				margin-left: 15px
+				color: $projectsPrimaryColor
+
+				strong
+					text-transform: uppercase
+
+		// Keeping the content somewhat inside the box in smaller windows
+		@media screen and (max-width: 545px)
+			height: 420px
+
+		@media screen and (max-width: 445px)
+			height: 500px
+
+			project
+				+flex-direction(column)
+
+				.project-image
+					max-width: 100%
+					max-height: 200px
+					margin-bottom: 20px
+
+				.project-description
+					max-width: 100%
+
+
+	.divfader-controller
+		height: 20px
+		overflow: hidden
 		+display(flex)
 		+align-items(center)
 		+justify-content(center)
-		margin-top: 100px
-		margin-bottom: 100px
-		color: $projectsPrimaryColor
-		font-weight: 700
-		font-size: 30px
-		text-align: center
-		font-style: italic
-		text-transform: uppercase
+
+		// Control objects (dots)
+		.divfader-control
+			font-size: 45px
+			padding: 3px
+			color: $projectsPrimaryColor
+			opacity: 0.5
+		.divfader-control-active
+			@extend .divfader-control
+			opacity: 1.0
