@@ -20,10 +20,12 @@
 		padding-right: 10px
 		padding-bottom: 10px
 		overflow: hidden
+		+display(flex)
+		+align-items(center)
 
 		project
 			+display(flex)
-			+align-items(top)
+			+align-items(center)
 			+justify-content(center)
 
 			.project-image
@@ -38,6 +40,13 @@
 
 				strong
 					text-transform: uppercase
+
+				p
+					text-align: center
+					text-decoration: none
+					font-size: 18px
+					font-weight: 400
+					font-style: italic
 
 		// Keeping the content somewhat inside the box in smaller windows
 		@media screen and (max-width: 545px)
@@ -60,6 +69,7 @@
 
 	.divfader-controller
 		height: 20px
+		margin-top: 10px
 		overflow: hidden
 		+display(flex)
 		+align-items(center)
@@ -67,7 +77,7 @@
 
 		// Control objects (dots)
 		.divfader-control
-			font-size: 45px
+			font-size: 50px
 			padding: 3px
 			color: $projectsPrimaryColor
 			opacity: 0.5
