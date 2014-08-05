@@ -15,7 +15,7 @@
 var autoplay = true;
 var showControls = true;
 var fadeTimer = 400;
-var delay = 8000;
+var delay = 2000;
 
 var content = $('.divfader-content').children().hide();
 var controls;
@@ -45,7 +45,7 @@ function initializeControls() {
 
 	// Add controls to DOM
 	for (n = 0; n < content.length; n++) {
-		$('.divfader-controller').append('<div class="divfader-control">•</div>');
+		$('.divfader-controller').append('<div class="divfader-control"></div>');
 	}
 
 	// Save controls
